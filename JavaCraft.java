@@ -563,7 +563,7 @@ public class JavaCraft {
     waitForEnter();
   }
 
-
+    @SuppressWarnings("unchecked")
     public static void loadGame(String fileName) {
     // Implementation for loading the game state from a file goes here
     try (ObjectInputStream inputStream = new ObjectInputStream(new FileInputStream(fileName))) {
